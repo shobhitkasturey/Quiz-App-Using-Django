@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Game</title>
+</head>
+<body>
+    <h1>{{ question.text }}</h1>
+    <form method="post" action="{% url 'check_answer' %}">
+        {% csrf_token %}
+        <input type="hidden" name="question_id" value="{{ question.id }}">
+        {% for option in options %}
+            <input type="radio" name="option" value="{{ forloop.counter0 }}"> {{ option.text }}<br>
+        {% endfor %}
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
