@@ -79,7 +79,7 @@ sh
 
     python manage.py runserver
 
-Access the application in your web browser at http://127.0.0.1:8000.
+
 Project Structure
 
     myProject/: The main Django project directory.
