@@ -113,10 +113,7 @@ Contributions are welcome! Please follow these steps to contribute:
     Commit your changes and push the branch to your forked repository.
     Create a pull request with a description of your changes.
 
-License
 
-This project is licensed under the MIT License. See the LICENSE file for more information.
-Contact
 
 For any questions or feedback, please contact shobhitkasturey@gmail.com
 
